@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="move_form">
+    <div class="back_form">
+      <h1>Contact Us</h1>
+      <form id="form">
+        <div class="main_directions_name">
+          <div class="directions_name">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName">
+          </div>
+          <div class="directions_name">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName">
+          </div>
+        </div>
+        <div>
+          <label for="email">Email Address</label>
+          <div>
+            <input type="text" id="email">
+          </div>
+        </div>
+        <label for="">Query Type</label>
+        <div class="move_radio">
+          <div class="config_radio">
+            <input class="space_radio" type="radio" name="queryType" id="general">
+            <label for="general">General Enquiry</label>
+          </div>
+          <div class="config_radio">
+            <input class="space_radio" type="radio" name="queryType" id="support">
+            <label for="support">Support Request</label>
+          </div>
+        </div>
+        <label for="message">Message</label>
+        <div>
+          <input type="text" id="message">
+        </div>
+        <div class="consent-section">
+          <input type="checkbox" id="consent" required>
+          <label for="consent">I consent to being contacted by the team</label>
+        </div>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </div>
+    <script src="script.js"></script>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="linkedin.com/in/igor-maquin/">Igor Maquin</a>.
+    </div>
+  </div>
+
+</body>
+
+</html>
